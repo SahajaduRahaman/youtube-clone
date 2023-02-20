@@ -13,7 +13,7 @@ const options = {
 };
 
 export const rapidAPI = async (url) => {
-    const { data } = await axios.get(`${Base_URL}/${url}`, options);
+  const { data } = await axios.get(`${Base_URL}/${url}`, options);
 
-    return data;
+  return data;
 }

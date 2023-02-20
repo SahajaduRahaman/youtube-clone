@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Typography, Card, CardMedia, CardContent } from '@mui/material';
 import { CheckCircle } from '@mui/icons-material';
-import { demoThumbnailUrl, demoVideoUrl, demoVideoTitle, demoChannelUrl, demoChannelTitle,  } from '../constant/constants';
+import { demoVideoUrl, demoVideoTitle, demoChannelUrl, demoChannelTitle,  } from '../constant/constants';
 
 const VideoCard = ({ video: { id: { videoId }, snippet } }) => {
   return (
